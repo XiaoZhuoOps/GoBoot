@@ -1,4 +1,4 @@
-package goExample
+package basic
 
 import (
 	"fmt"

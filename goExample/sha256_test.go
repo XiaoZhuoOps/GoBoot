@@ -121,7 +121,7 @@ func TestGenSha256(t *testing.T) {
 	for i, phone := range hashedPhoneBlackList {
 		fmt.Println(strconv.Quote(phone) + "," + "// " + rawPhoneBlackList[i])
 	}
-	fmt.Println("====================")
+	fmt.Println("==================== diff ====================")
 	// diff
 	var diffList []mapping
 	for i, phone := range hashedPhoneBlackList {
